@@ -1,0 +1,10 @@
+.front{margin-left: 3%;
+    font-weight: 700px;
+    color: white;
+}
+.about{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-bottom: 50%;
+}
