@@ -2,11 +2,31 @@
     body {
       background-color: wheat;
     }
+    ul{
+        display: flex;
+    }
+    li{
+        list-style-type: none;
+        padding: 0px 40px;
+        margin-left: 40px;
+    }
+    .nav2{
+        display: flex;
+        margin: 20px 20px;
+        padding:10px 20px;
+        background-color: #FFD600;
+    }
   }
-.front{
-    font-weight: 700px;
-    
+  .section1{
+    display: flex;
+    justify-content: space-between;
+  }
+.button{
+    background-color: #FFD600;
 }
+
+    
+    
 .about{
     display: flex;
     list-style: none;
@@ -18,6 +38,10 @@
     justify-content: space-between;
     margin-right: 35%;
     background-color: yellow;
+    
+}
+.search{
+    padding-left: 10%;
 }
 .toy{
     width: 450px;
@@ -29,11 +53,13 @@
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    margin-top: 7%;
 }
 .movies{
     display: flex;
      margin-left:13% ;
      justify-content: space-between;
+     margin-top: 9%;
 }
 .title{
     text-align: center;
@@ -44,6 +70,14 @@
     display: flex;
     margin-left: 13%;
     justify-content: space-between;
+    
+}
+
+.part1{
+    margin-top: 9%;
+}
+.part2{
+    margin-top: 9%;
 }
 .title2{
 text-align: center;
@@ -60,15 +94,17 @@ font-weight: bold;
     justify-content: space-between;
 }
 .image{width: 300px;
-    height: 320px;
-    margin-top: 5%;
+    height: 300px;
+    margin-top: 5%;}
 
-}footer{
+.footer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    }
+}
+    
     .footer-div{
+        margin-top: 19%;
     background-color: #26004C;
     color: white;
     padding: 2px 15px;
