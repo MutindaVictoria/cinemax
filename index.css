@@ -1,10 +1,81 @@
-.front{margin-left: 3%;
+@media (min-width: 600px) and (max-width: 768px) {
+    body {
+      background-color: wheat;
+    }
+  }
+.front{
     font-weight: 700px;
-    color: white;
+    
 }
 .about{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    padding-bottom: 50%;
+    padding-bottom: -40%;
 }
+.one{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 35%;
+    background-color: yellow;
+}
+.toy{
+    width: 450px;
+    height: 250px;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.head{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.movies{
+    display: flex;
+     margin-left:13% ;
+     justify-content: space-between;
+}
+.title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.new{
+    display: flex;
+    margin-left: 13%;
+    justify-content: space-between;
+}
+.title2{
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+
+}
+.series{display: flex;
+    justify-content: space-between;
+
+}
+.series2{
+    display:flex;
+    justify-content: space-between;
+}
+.image{width: 300px;
+    height: 320px;
+    margin-top: 5%;
+
+}footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    .footer-div{
+    background-color: #26004C;
+    color: white;
+    padding: 2px 15px;
+    
+    }
+    .footer-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }       
