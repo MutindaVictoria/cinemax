@@ -1,25 +1,40 @@
-@media (min-width: 1000px) and (max-width: 768px) {
-    body {
-      background-color: whitesmoke;
-    }
-  }
+
     body {
       background-color: wheat;
     }
-    ul{
+    .nav-bar{
         display: flex;
-    }
-    li{
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0% 25%;
+        }
+        .nav-bar li{
+        display:inline-block;
         list-style-type: none;
-        padding: 0px 40px;
-        margin-left: 40px;
-    }
-    .nav2{
+        padding: 8px 10px;
+        }
+        .nav-bar-2{
         display: flex;
-        margin: 20px 20px;
-        padding:10px 20px;
+        flex-direction: row;
+        justify-content: space-between;
         background-color: #FFD600;
-    }
+        padding: 20px;
+        }
+        .nav-bar-2 button{
+        border-radius: 7px;
+        }
+        .nav-bar-2 input{
+        border-radius: 7px;
+        }
+        .lego-wars{
+        color: white;
+        background-color: black;
+        }
+        .lego-wars p1{
+        margin-left: 45%;
+        font-family: fantasy;
+        } 
+
   
   .section1{
     display: flex;
@@ -76,8 +91,9 @@
     justify-content: space-between;
     
 }
-.photo1{
-    width: 120px;
+.photo2{
+    width:20;
+
 }
 
 .part1{
@@ -188,6 +204,7 @@ margin-top: 5%;
     padding: 2px 15px;
     
 }
+
 .footer-2{
     display: flex;
     flex-direction: row;
