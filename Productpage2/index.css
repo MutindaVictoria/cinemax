@@ -97,7 +97,7 @@
             justify-content: space-between;
         }
         
-        #instructor{
+        .instructor{
             margin-right: 10%;
             margin-left: 25%;
             margin-top: 5%;
@@ -159,8 +159,39 @@
             padding-right: 35%;
             padding-left: 1%;
         }
-        
+        @media screen and(max-width:810px){
+            .main{grid-column: auto;}
+            .nav-bar{
+                display: grid;
+            }
+            .orders{
+            display: grid;
+                width: 60%;
+            }
+            .img2{
+                display: grid;
+            }
+            .btn2b{margin-right: 5%;}
+
+            .instructor{
+                display: grid;
+                width: 95%;
+                
+                margin-right: 10%;
+                grid-template-columns: repeat(1fr);
+            }}
+            @media (min-width: 320px) and (max-width: 480px) {
+.Last{
+    display: grid;
+}
+.instructor{
+    width: 50%;
+    display: grid;
+}
+.btn12{
+    display: grid;
+    width: 10%;
+}
+        }
         
 
-
-    
