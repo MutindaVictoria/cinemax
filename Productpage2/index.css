@@ -1,0 +1,166 @@
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% 25%;
+    }
+    .nav-bar li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 8px 10px;
+    }
+    .nav-bar-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FFD600;
+    padding: 20px;
+    }
+    .nav-bar-2 button{
+    border-radius: 7px;
+    }
+    .nav-bar-2 input{
+    border-radius: 7px;
+    }
+    .lego-wars{
+    color: white;
+    background-color: black;
+    }.lego-wars p1{
+        margin-left: 45%;
+        font-family: fantasy;
+        } 
+        .btn4{
+            border: solid gray 2px;
+            border-radius: 4px; 
+            margin-top: 25px;
+            padding-right: 2px;
+            padding-top: 15px;
+            padding-bottom: 5px;
+        }
+        #searchbtn{
+            border-radius: 4px; 
+            margin-right: 450px;
+            margin-top: 25px;
+            padding-right: 200px;
+            padding-top: 15px;
+            padding-bottom: 5px;
+        }
+        .icons{
+            margin: 2%;
+            padding-right: 5px;
+        }
+        
+        #btn12{
+            padding: 0px, 200px;
+            margin-left: 0%;
+            color: black;
+            background-color:white;
+            border: solid rgb(124, 243, 124) ;
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+        }
+        #btn1{
+            padding: 0px, 150px;
+            margin-left: 0%;
+            color: white;
+            background-color: orange;
+            border: solid orange 5px;
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+        }
+        
+        
+        .orders{
+            display: flex;
+            justify-content: space-between;
+            margin-left: 5%;
+        }
+        #word1{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 0%;
+            margin-left: 10%;
+            
+        }
+        #word2{
+            margin-left: 160%;
+            margin-top: 3%;
+        }
+        #word21{
+            margin-left: 125%;
+            margin-top: 3%;
+        }
+        .order1{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        #instructor{
+            margin-right: 10%;
+            margin-left: 25%;
+            margin-top: 5%;
+            border-radius: 12px;
+            border: solid 2px gray;
+            background-color: white;
+            font-weight: bolder;
+            border-width: 100%;
+            height: max-content;
+            font-size:large;
+            padding-left: 10px;
+            padding-right: 20px;
+            justify-content: space-between;
+        }
+        #centered{
+            text-align: center;
+        }
+        .img2{
+            display: flex;
+            justify-content: space-between;
+            margin: 3% 10%;
+        }
+        #btn2{
+            padding: 0px, 100px;
+            margin-left: 45%;
+            color: white;
+            background-color: orange;
+            border: solid orange 25px;
+            border-radius: 5px;
+        }
+        #btn2b{
+            padding: 0px, 150px;
+            margin-left: 40%;
+            color: white;
+            background-color: orange;
+            border: solid orange 5px;
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+        }
+        
+        
+        .Last{
+            display: flex;
+            color: white;
+            padding: 1% 1%;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #26004c;
+            margin: 0% 0%;
+        }
+        .LastL{
+            display: flex;
+            color: white;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #26004c;
+            margin: 0% 0%;
+            padding-right: 35%;
+            padding-left: 1%;
+        }
+        
+        
+
+
+    
